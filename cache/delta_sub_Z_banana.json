@@ -1,0 +1,16 @@
+{
+ "benchmark": "banana",
+ "r": 4,
+ "B_SUPPORT": 8,
+ "n_outer": 4000,
+ "nq": 11,
+ "seed": 20260806,
+ "V_padding_max_abs": 0.0,
+ "delta_sub_Z_mean": 0.009514007559191202,
+ "delta_sub_Z_se": 0.00011906869000173491,
+ "delta_sub_Z_median": 0.007271882711416092,
+ "delta_sub_Z_min": 0.0024981745338573252,
+ "delta_sub_Z_max": 0.08756090035508785,
+ "diff_estimator_mean": 0.007559345873669469,
+ "diff_estimator_se": 0.0022356078553068637
+}

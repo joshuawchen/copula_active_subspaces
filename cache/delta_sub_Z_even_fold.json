@@ -1,0 +1,16 @@
+{
+ "benchmark": "even_fold",
+ "r": 4,
+ "B_SUPPORT": 8,
+ "n_outer": 4000,
+ "nq": 11,
+ "seed": 20260806,
+ "V_padding_max_abs": 0.0,
+ "delta_sub_Z_mean": 0.027544054590801295,
+ "delta_sub_Z_se": 0.0004346650703721681,
+ "delta_sub_Z_median": 0.019262818243184397,
+ "delta_sub_Z_min": 0.003963151284826398,
+ "delta_sub_Z_max": 0.38538318236163305,
+ "diff_estimator_mean": 0.02875244964566828,
+ "diff_estimator_se": 0.004017483448525746
+}

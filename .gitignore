@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Figures written by reproduce.py. The Part II decomposition summaries in
+# out/*_production/ are saved results that figures read, so they are kept.
+out/*
+!out/banana_production/
+!out/even_fold_production/
+!out/conformal_cube_production/
+out/*_production/*
+!out/*_production/exp_stage2_oracle_kl.json
+
+# Figure scripts that write next to themselves
+figures/*.png
+figures/*.pdf
+
+# Scratch files of the Part II reference computations (several GB)
+cache/_cor44_scratch_*/
+cache/*.pkl
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.thm
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.pdf
+!paper/fig_*.pdf
+!paper/figSy_*.pdf
+paper/fig_stage1_bounds.png
+paper/fig_apost_endtoend.png
+
+# OS
+.DS_Store

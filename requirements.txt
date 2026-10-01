@@ -1,0 +1,7 @@
+# Versions that produced the results in the papers (Python 3.13). Any
+# numpy >= 1.23, scipy >= 1.10, matplotlib >= 3.6 and scikit-learn >= 1.3 runs.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+scikit-learn==1.8.0
+pytest==9.0.3

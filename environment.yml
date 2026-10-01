@@ -1,0 +1,17 @@
+# Conda environment for the Copula Active Subspaces code:
+#   conda env create -f environment.yml
+#   conda activate cas
+# The versions are those that produced the results in the papers.
+name: cas
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.4
+  - scipy=1.17
+  - matplotlib=3.10
+  - scikit-learn=1.8
+  - pytest=9
+  - pip
+  - pip:
+      - -e .
